@@ -484,7 +484,7 @@ export default function App() {
         </div>
         <div style={styles.headerRight}>
           <button style={styles.btnGhost} onClick={resetAll}>Réinitialiser</button>
-          <button style={styles.btnSecondary} onClick={copyDocumentation}>Copier documentation</button>
+          <button style={styles.btnSecondary} onClick={copyDocumentation}>Copier compte rendu</button>
           <button style={styles.btnPrimary} onClick={copySamcRow}>Copier ligne SAMC</button>
         </div>
       </header>
@@ -602,7 +602,7 @@ export default function App() {
             </Section>
           )}
 
-          <Section title="Documentation complète">
+          <Section title="Compte rendu">
             <pre style={styles.reportBox}>{generateDocumentation()}</pre>
             <div style={styles.actionRow}>
               <button style={styles.btnSecondary} onClick={copyDocumentation}>Copier</button>
